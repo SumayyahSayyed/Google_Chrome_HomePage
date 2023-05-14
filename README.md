@@ -19,7 +19,7 @@ The project is a self-made replica of Google HomePage.
 ### Screenshot
 
 ![](My-Design/Desktop.png)
-![](My-Design/Mobile.png)
+![](My-Design/Mobile.JPG)
 
 ### Links
 
