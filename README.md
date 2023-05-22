@@ -14,7 +14,7 @@
 
 ### Project
 
-The project is a self-made replica of Google HomePage.
+The project is a self-made replica of Google HomePage. This project is yet to be made responsive.
 
 ### Screenshot
 
