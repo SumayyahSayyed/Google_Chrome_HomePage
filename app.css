@@ -214,6 +214,7 @@ nav img {
     padding: 0 15px;
     align-items: center;
     width: 70%;
+    min-width: 360px;
 }
 
 .input-filed .material-symbols-outlined {
@@ -240,6 +241,8 @@ input:focus {
 
 .btn-field {
     margin: 2rem 0;
+    display: flex;
+    flex-direction: row;
 
 }
 
@@ -250,12 +253,14 @@ button {
     border-radius: 4px;
     color: white;
     background-color: #303134;
+    min-width: 136.75px;
 
 }
 
 .langs {
     display: flex;
     color: #bdc1c6;
+    min-width: 229.7px;
 }
 
 .langs a {
