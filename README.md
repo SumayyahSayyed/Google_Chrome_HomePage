@@ -14,12 +14,12 @@
 
 ### Project
 
-The project is a self-made replica of Google HomePage. This project is yet to be made responsive.
+The project is a self-made replica of Google HomePage.
 
 ### Screenshot
 
 ![](My-Design/Desktop.png)
-![](My-Design/Mobile.JPG)
+![](My-Design/Mobile.png)
 
 ### Links
 
