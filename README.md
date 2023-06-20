@@ -23,7 +23,7 @@ The project is a self-made replica of Google HomePage.
 
 ### Links
 
-- Live Site URL: [https://sumayyahsayyed.github.io/Google_Chrome_HomePage/]
+- Live Site URL: [https://google-homepage.up.railway.app/]
 
 ## Process
 
