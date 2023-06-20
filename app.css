@@ -173,8 +173,9 @@ form {
 
 .nav-li .material-symbols-outlined {
     padding: 5px;
-    width: 30px;
-    height: 30px;
+    font-size: 23px;
+    color: rgba(255, 255, 255, .87);
+    font-weight: 600;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -200,6 +201,15 @@ nav img {
 
 
 /* --- MAIN ---*/
+main {
+    margin-top: 1em;
+}
+
+svg {
+    max-width: 30px;
+    max-height: 25px;
+    margin: 0 3px 0 5px;
+}
 
 .logo-img {
     width: 270px;
@@ -210,11 +220,12 @@ nav img {
     border: 0.5px solid #5f6368;
     display: flex;
     border-radius: 3rem;
-    height: 3rem;
+    height: 2.7rem;
     padding: 0 15px;
     align-items: center;
-    width: 70%;
-    min-width: 360px;
+    justify-content: space-around;
+    width: 550px;
+    min-width: 240px;
 }
 
 .input-filed .material-symbols-outlined {
@@ -225,9 +236,8 @@ nav img {
 input[type="text"] {
     border: none;
     background-color: transparent;
-    margin: auto;
     display: flex;
-    margin: 0 8px;
+    /* margin: 0 8px; */
     flex-grow: 1;
     color: white;
     font-size: 16px;
@@ -238,23 +248,24 @@ input:focus {
     outline: none;
 }
 
-
 .btn-field {
     margin: 2rem 0;
     display: flex;
     flex-direction: row;
-
 }
 
+/* .btn-field button:nth-of-type(1) {
+    padding: 10px 20px;
+} */
+
 button {
-    padding: 10px 16px;
+    padding: 11px 16px;
     margin-right: 10px;
     border: 1px solid #202124;
-    border-radius: 4px;
+    border-radius: 5px;
     color: white;
     background-color: #303134;
-    min-width: 136.75px;
-
+    /* min-width: 136.75px; */
 }
 
 .langs {
@@ -266,11 +277,13 @@ button {
 .langs a {
     color: #8ab4f8;
     margin-left: 10px;
-    font-size: 12px;
+    font-size: 11px;
+    font-style: italic;
 }
 
 .material-symbols-outlined {
-    display: flex;
+    font-size: 20px;
+    color: #9aa0a6;
 
 }
 
@@ -284,7 +297,7 @@ footer {
 }
 
 .ft-1 {
-    padding: 15px 30px;
+    padding: 16px 30px;
     border-bottom: 1px solid #3c4043;
     font-size: 15px;
 }
@@ -296,7 +309,7 @@ footer * {
 .ft-2 {
     border-top: 1px solid #202124;
     font-size: 14px;
-    padding: 0 18px;
+    padding: 1px 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -330,6 +343,7 @@ a:hover {
 .input-field:hover {
     border: 0.5px solid #303134;
     background-color: #303134;
+    box-shadow: 2px 2px 2px #1b1b1b;
 }
 
 button:hover {
@@ -351,7 +365,8 @@ nav img:hover {
     cursor: pointer;
 }
 
-.material-symbols-outlined .mic:hover {
+.material-symbols-outlined .mic:hover,
+svg:hover {
     cursor: pointer;
 }
 
@@ -367,7 +382,29 @@ nav img:hover {
     }
 }
 
+@media (max-width: 1024px) {
+    .logo-img {
+        width: 200px;
+        height: 70px;
+    }
+
+    button,
+    .langs {
+        font-size: 11px;
+    }
+
+    .input-field {
+        width: 450px;
+    }
+
+    form {
+        padding: 1.4rem 0;
+    }
+
+}
+
 @media (max-width: 690px) {
+
 
     .ft-2 {
         display: flex;
@@ -376,16 +413,57 @@ nav img:hover {
 
 }
 
+@media (max-width: 660px) {
+    .logo-img {
+        width: 170px;
+        height: 55px;
+    }
+
+    button,
+    .langs {
+        font-size: 11px;
+    }
+
+    .input-field {
+        width: 370px;
+        height: 2.5rem;
+    }
+
+    form {
+        padding: 1em 0;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .logo-img {
+        margin-top: 1rem;
+    }
+
+    .input-field {
+        width: 270px;
+        height: 2.5rem;
+    }
+
+    svg {
+        min-height: 20px;
+        min-width: 20px;
+    }
+}
+
+
 @media (max-width: 450px) {
 
     .left {
         display: flex;
         flex-wrap: wrap;
     }
-}
 
-@media (max-width: 650px) {
-    .input-field {
-        flex-shrink: 1;
+    .btn-field {
+        margin: 1.5rem 0;
+    }
+
+    button {
+        min-width: 120px;
     }
 }
